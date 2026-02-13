@@ -10,8 +10,16 @@
       "dest": "/api/send_mail.php"
     },
     {
+      "src": "/style.css",
+      "dest": "/public/style.css"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/public/images/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/index.html"
     }
   ]
 }
