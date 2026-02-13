@@ -26,13 +26,13 @@ try {
     //Content
     $mail->isHTML(true);
     $mail->Subject = 'I Love You';
-    $mail->Body    = 'Happy Valentine Day My Love. 
-    \n\n
+    $mail->Body    = 'Happy Valentine Day My Love.\n
+    \n
     I wish I could see you in person and be with you today, but our lives do not allow that right now.
-    But you should know that I long for your presence more with each day that passes.
-    \n\n
-    I love you so much. You are the best thing that has ever happened to me ❤.
-    \n\n
+    But you should know that I long for your presence more with each day that passes.\n
+    \n
+    I love you so much. You are the best thing that has ever happened to me ❤.\n
+    \n
     Love
     Ofentse';
 
