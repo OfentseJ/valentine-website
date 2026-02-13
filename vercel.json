@@ -6,8 +6,12 @@
   },
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/send",
       "dest": "/send_mail.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
