@@ -1,13 +1,13 @@
 {
   "functions": {
-    "send_mail.php": {
+    "api/send_mail.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
   "routes": [
     {
       "src": "/send",
-      "dest": "/send_mail.php"
+      "dest": "/api/send_mail.php"
     },
     {
       "src": "/(.*)",
